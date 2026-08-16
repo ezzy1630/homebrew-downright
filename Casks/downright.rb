@@ -8,7 +8,7 @@ cask "downright" do
   desc "Native Markdown reader and editor for macOS"
   homepage "https://downright.cc"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   auto_updates true
 
