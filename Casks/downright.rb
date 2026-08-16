@@ -1,4 +1,6 @@
 cask "downright" do
+  # Downright publishes one rolling main-channel artifact. Sparkle updates
+  # installed apps after Homebrew installs this same latest DMG.
   version :latest
   sha256 :no_check
 
